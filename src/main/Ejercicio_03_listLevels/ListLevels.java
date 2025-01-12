@@ -34,7 +34,8 @@ public class ListLevels {
                 }
             }
 
-            System.out.println(currentLevel.toString().replaceAll("[\\[\\],]", ""));
+            // Imprime el nivel actual como lista
+            System.out.println(currentLevel);
         }
     }
 }
